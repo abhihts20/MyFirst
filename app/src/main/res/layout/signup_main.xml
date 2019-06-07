@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:drawableTop="@color/colorPrimary"
+        android:paddingTop="20dp"
+        android:inputType="text"
+        android:gravity="left"
+        android:longClickable="false"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number "
+        android:drawableTop="@color/colorPrimary"
+        android:paddingTop="20dp"
+        android:inputType="number"
+        android:gravity="left"
+        android:longClickable="false"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:drawableTop="@color/colorPrimary"
+        android:paddingTop="20dp"
+        android:inputType="textEmailAddress"
+        android:gravity="left"
+        android:longClickable="false"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableTop="@color/colorPrimary"
+        android:paddingTop="20dp"
+        android:gravity="left"
+        android:longClickable="false"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:drawableTop="@color/colorPrimary"
+        android:paddingTop="20dp" android:gravity="left"
+        android:longClickable="false"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:inputType="textPassword"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:soundEffectsEnabled="true"/>
+
+</LinearLayout>

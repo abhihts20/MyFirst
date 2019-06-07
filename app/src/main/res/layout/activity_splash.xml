@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#73CFDA"
+    android:gravity="center">
+
+    <ImageView
+        android:src="@drawable/back1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:gravity="center"
+        android:background="#99000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Company"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="bottom"
+            android:text="Continue"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:id="@+id/btn_next"/>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
